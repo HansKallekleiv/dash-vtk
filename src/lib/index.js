@@ -19,6 +19,7 @@ import Volume from './components/Volume.react';
 import VolumeController from './components/VolumeController.react';
 import VolumeDataRepresentation from './components/VolumeDataRepresentation.react';
 import VolumeRepresentation from './components/VolumeRepresentation.react';
+import Surface from './components/Surface.react';
 
 export {
     Algorithm,
@@ -41,4 +42,5 @@ export {
     VolumeController,
     VolumeDataRepresentation,
     VolumeRepresentation,
+    Surface
 };

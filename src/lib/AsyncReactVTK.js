@@ -33,6 +33,7 @@ const Volume = lazy(asyncComponentBuilder("Volume"));
 const VolumeController = lazy(asyncComponentBuilder("VolumeController"));
 const VolumeDataRepresentation = lazy(asyncComponentBuilder("VolumeDataRepresentation"));
 const VolumeRepresentation = lazy(asyncComponentBuilder("VolumeRepresentation"));
+const Surface = lazy(asyncComponentBuilder("Surface"));
 
 
 export {
@@ -55,4 +56,5 @@ export {
     VolumeController,
     VolumeDataRepresentation,
     VolumeRepresentation,
+    Surface
 };
